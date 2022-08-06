@@ -1,5 +1,11 @@
 class Casino {
     // Write code here
+    constructor(name, fakeCoin){
+        this.name = name;
+        this.timesPlayed = 0;
+        this.winnings = 0;
+        this.fakeCoin = fakeCoin
+    }
 };
 
 // TESTS
